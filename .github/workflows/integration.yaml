@@ -11,8 +11,8 @@ jobs:
 
             - uses: SonarSource/sonarqube-scan-action@v5
               env:
-                SOMAR_TOKEN:    ${{secrets.SOMAR_TOKEN}}
-                SONAR_HOST_URL: ${{secrets.SOMAR_HOST_URL}}
+                SONAR_TOKEN:    ${{secrets.SONAR_TOKEN}}
+                SONAR_HOST_URL: ${{secrets.SONAR_HOST_URL}}
 
                 with:
                 args: >
